@@ -20,7 +20,7 @@ function UserPhotos() {
         <Card key={photo._id} sx={{ marginBottom: 3 }}>
           <CardMedia
             component="img"
-            image={require(`../../images/${photo.file_name}`)}
+            image={`/images/${photo.file_name}`}
             alt="User Post"
             sx={{ maxHeight: 500, objectFit: "contain" }}
           />
